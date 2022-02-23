@@ -4,13 +4,13 @@ import './App.css';
 import ChatListItem from './components/ChatListItem/ChatListItem';
 
 import DonutLargeIcon from '@material-ui/icons/DonutLarge';
-import ChatIcon from '@material-ui/icons/Chat';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
-import SearchIcon from '@material-ui/icons/Search';
+import ChatIcon       from '@material-ui/icons/Chat';
+import MoreVertIcon   from '@material-ui/icons/MoreVert';
+import SearchIcon     from '@material-ui/icons/Search';
 
 export default function App( ) {
 
-  const [chatList, setChatList] = useState([{},{},{},{}]);
+  const [chatList, setChatList] = useState([{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]);
 
   return (
     <div className='app-window'>
