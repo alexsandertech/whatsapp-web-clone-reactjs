@@ -1,9 +1,12 @@
 import React from "react";
 import './ChatListItem.css';
 
-export default function ChatListItem() {
+export default function ChatListItem({onClick}) {
   return (
-    <div className="chatListItem">
+    <div 
+      className="chatListItem"
+      onClick={onClick}
+    >
       <img className="chatListItem--avatar" src="https://ik.imagekit.io/nightcafe//assets/profile.png" alt=""/>
       <div className="chatListItem--lines">
         <div className="chatListItem--line">
